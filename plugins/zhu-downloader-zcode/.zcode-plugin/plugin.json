@@ -1,0 +1,11 @@
+{
+  "name": "zhu-downloader-zcode",
+  "version": "0.1.0",
+  "description": "ZhuDownLoader as an MCP service for agents: submit DOIs, poll progress, open manual-verification tabs in the downloader Edge, auto-capture user downloads, retry and close.",
+  "description_i18n": {
+    "zh-CN": "ZhuDownLoader MCP 服务：agent 提交 DOI 异步批量下载、长轮询进度、批次结束后在专用 Edge 打开需人工条目、自动捕获用户点下的 PDF，并同会话重试与收窗。"
+  },
+  "author": { "name": "LordB" },
+  "skills": "./skills",
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "zhudownloader-mcp",
+  "version": "0.3.0",
+  "description": "ZhuDownLoader MCP 服务：把批量文献 DOI 下载封装成 stdio MCP（8 工具：提交/长轮询/人工接管捕获/重试/收集/收窗）",
+  "type": "module",
+  "scripts": {
+    "test": "node test_mcp_jobs.mjs && node test_mcp_protocol.mjs && node test_batch.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.62.1"
+  }
+}

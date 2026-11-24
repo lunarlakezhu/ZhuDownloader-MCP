@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "zhu-downloader": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "${ZCODE_PLUGIN_ROOT}/mcp/launcher.mjs"
+      ],
+      "enabled": true,
+      "timeoutMs": 60000
+    }
+  }
+}
